@@ -2,6 +2,7 @@
 <html lang="en-gb">
 
 <head>
+    <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,8 +17,8 @@
 
 <body>
     <!-- Navigation bar -->
-    <nav id="navbar" class="customNav navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="images/emoji-web-dev.svg" />Jingyue Zhao</a>
+    <nav id="mainNav" class="customNav navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#page-top"><img src="images/emoji-web-dev.svg">Jingyue Zhao</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,22 +26,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#work">My Work<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#hero">About Me<span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#skills" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        My Skills
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">HTML</a>
-                        <a class="dropdown-item" href="#">CSS</a>
-                        <a class="dropdown-item" href="#">JavaScript</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">More to learn</a>
-                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#work">My Work</a>
                 </li>
-                <!-- add li tag -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">My Skills</a>
+                </li>
+                <!-- CTA button -->
                 <li class="nav-item">
                     <a class="btn btn-primary btn-lg navCTA" href="mailto:jingyue@website.com" role="button">Contact
                         Me</a>
@@ -53,7 +47,7 @@
     <!-- main body -->
     <main class="sections">
         <!-- hero section -->
-        <section id="hero" class="">
+        <header id="hero" class="masthead">
             <!-- adds jumbotron featuring my picture, name, and any other information -->
             <div class="jumbotron">
                 <div class="jumboCopy">
@@ -67,7 +61,7 @@
                     <a class="btn btn-primary btn-lg" href="#" role="button">Let's work together!</a>
                 </div>
             </div>
-        </section>
+        </header>
         <!-- End jumbotron section -->
 
 
