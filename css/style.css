@@ -2,7 +2,7 @@
 :root {
     --font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     --bgd-color: lightgrey;
-    --blue-color: #92CCCD;
+    --blue-color: #0069D9;
     --darkgrey: #31343D;
     --sec-heading-color: #445876;
     --highlight: rgb(199, 172, 19, 1);
@@ -11,7 +11,7 @@
     --line-height: 1.5;
     --margin: 0;
     --padding: 0;
-  }  
+}
 
 body {
     background-color: lightcyan;
@@ -30,7 +30,7 @@ p {
     font-family: 'Jura', sans-serif;
 }
 
-
+/* style of main navbar */
 .customNav {
     position: fixed;
     width: 100%;
@@ -54,49 +54,47 @@ p {
     margin: 0px 15px;
 }
 
-.dropdown-menu {
-    background: url("../images/transparency.png");
-    background-color: transparent !important;
-    background-size: cover;
-}
-
-.dropdown-item:focus,
-.dropdown-item:hover {
-    color: #16181b;
-    text-decoration: none;
-    background: black;
-}
-
-.customNav a {
-    color: white !important;
+#mainNav a {
+    color: white;
 }
 
 .navCTA {
     font-size: 18px;
 }
 
-  
-  
+/* mainNav hover effect */
+#mainNav .navbar-nav>li>a:hover,
+#mainNav .navbar-nav>li>a:focus:hover {
+    color: var(--links);
+}
 
-/* jumbotron style */
+
+/* hero section: jumbotron style */
 .jumbotron {
     background-image: url("../images/my-web-development-img-1.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 20px);
+    width: auto;
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.jumboCopy {
-    width: 70%;
-    min-width: 500px;
-    max-width: 700px;
-    color: darkblue;
+.jumboText {
+    width: 100%;
+    color: var(--blue-color);
+    margin-top: 75px;
+    margin-bottom: 50px;
+    margin-left: 220px;
     text-align: center;
 }
 
+.jumboText a {
+    margin-top: 100px;
+
+}
 
 /* prewritten css */
 footer {
@@ -106,12 +104,12 @@ footer {
     line-height: 60px;
     background-color: #f5f5f5;
     margin-top: 50px;
-  }
-  
-  .cardContainer {
+}
+
+.cardContainer {
     margin-top: 20px;
-  }
-  
-  .card {
+}
+
+.card {
     margin: 0 auto;
-  }
+}
