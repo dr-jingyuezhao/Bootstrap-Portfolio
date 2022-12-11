@@ -95,16 +95,21 @@ p {
 
 }
 
+.page-section {
+    margin: 50px 20px;
+}
+
+.sectionHeading {
+    text-align: center;
+    font-weight: bold;
+    color: var(--blue-color);
+    margin-bottom: 30px;
+}
+
 /* work section: Cards */
 .content {
     padding: 20px;
 }
-
-.sectionHeading {
-    font-weight: bold;
-    color: var(--blue-color);
-}
-
 
 .card-title {
     font-weight: bold;
@@ -112,11 +117,6 @@ p {
 }
 
 /* skills section */
-
-section#skills {
-    margin: 30px 0px;
-}
-
 section#skills ul {
     margin: 20px 20px;
 }
@@ -127,6 +127,7 @@ section#skills ul li {
 
 section#skills ul li a {
     margin-left: 20px;
+    font-weight: bold;
 }
 
 section#skills ul li p {
@@ -134,6 +135,18 @@ section#skills ul li p {
     display: flex;
     align-items: center;
 }
+
+/* about & contact section */
+section#contact p {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.col {
+    margin: 0px 10px;
+}
+
 
 /* prewritten css */
 footer {
