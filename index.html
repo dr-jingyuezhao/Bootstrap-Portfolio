@@ -15,190 +15,220 @@
 </head>
 
 <body>
-    <!-- navbar on top -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Jingyue Zhao</a>
+    <!-- Navigation bar -->
+    <nav id="navbar" class="customNav navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="images/emoji-web-dev.svg" />Jingyue Zhao</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#work">My Work<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                        aria-expanded="false">
-                        Dropdown
+                    <a class="nav-link dropdown-toggle" href="#skills" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        My Skills
                     </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">HTML</a>
+                        <a class="dropdown-item" href="#">CSS</a>
+                        <a class="dropdown-item" href="#">JavaScript</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">More to learn</a>
                     </div>
                 </li>
+                <!-- add li tag -->
                 <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
+                    <a class="btn btn-primary btn-lg navCTA" href="mailto:jingyue@website.com" role="button">Contact
+                        Me</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
         </div>
     </nav>
+    <!-- End navigation bar -->
 
-    <!-- hero section -->
-    <!-- adds jumbotron featuring my picture, name, and any other information -->
-    <div class="jumbotron">
-        <div class="jumboCopy">
-            <h1 class="display-4">Hello, my name is Jingyue.</h1>
-            <p class="lead">
-                I am a front-end developer with a keen eye for creating engaging UI and bring products to life.
+    <!-- main body -->
+    <main class="sections">
+        <!-- hero section -->
+        <section id="hero" class="">
+            <!-- adds jumbotron featuring my picture, name, and any other information -->
+            <div class="jumbotron">
+                <div class="jumboCopy">
+                    <h1 class="display-4">Hello, my name is Jingyue.</h1>
+                    <p class="lead">
+                        I am a front-end developer with a keen eye for creating engaging UI and bring products to life.
+                    </p>
+                    <hr class="my-4">
+                    <p>I like to craft solid and scalable frontend products with great user experiences.</p>
+
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Let's work together!</a>
+                </div>
+            </div>
+        </section>
+        <!-- End jumbotron section -->
+
+
+        <!-- work section displaying work in grid -->
+
+        <!-- grid card -->
+        <section id="work" class="page-section">
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- skills section listing the skills to be learned in the bootcamp: scrollspy -->
+        <section id="skills" class="page-section">
+            <nav id="navbar-example2" class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="#">My Skills</a>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#html">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#css">CSS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#js">JavaScript</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Dropdown</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#one">one</a>
+                            <a class="dropdown-item" href="#two">two</a>
+                            <div role="separator" class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#three">three</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+                <h4 id="html">HTML</h4>
+                <p>...</p>
+                <h4 id="css">CSS</h4>
+                <p>...</p>
+                <h4 id="js">JavaScript</h4>
+                <p>...</p>
+                <h4 id="one">one</h4>
+                <p>...</p>
+                <h4 id="two">two</h4>
+                <p>...</p>
+                <h4 id="three">three</h4>
+                <p>...</p>
+            </div>
+        </section>
+
+        <!-- about/contact section in the same row: collapse -->
+        <!-- Multiple targets -->
+        <section id="contact" class="page-section">
+            <p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button"
+                    aria-expanded="false" aria-controls="multiCollapseExample1">About Me</a>
+                <button class="btn btn-primary" type="button" data-toggle="collapse"
+                    data-target="#multiCollapseExample2" aria-expanded="false"
+                    aria-controls="multiCollapseExample2">Contact Me</button>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse"
+                    aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both
+                    elements</button>
             </p>
-            <hr class="my-4">
-            <p>I like to craft solid and scalable frontend products with great user experiences.</p>
-
-            <a class="btn btn-primary btn-lg" href="#" role="button">Let's work together!</a>
-        </div>
-    </div>
-    <!-- End jumbotron -->
-
-
-    <!-- work section displaying work in grid -->
-
-    <!-- grid card -->
-    <div class="row row-cols-1 row-cols-md-2">
-        <div class="col mb-4">
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.</p>
+            <div class="row">
+                <div class="col">
+                    <div class="collapse multi-collapse show" id="multiCollapseExample1">
+                        <div class="card card-body">
+                            Some placeholder content for the first collapse component of this multi-collapse example.
+                            This panel
+                            is hidden by default but revealed when the user activates the relevant trigger.
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="collapse multi-collapse show" id="multiCollapseExample2">
+                        <div class="card card-body">
+                            Some placeholder content for the second collapse component of this multi-collapse example.
+                            This
+                            panel is hidden by default but revealed when the user activates the relevant trigger.
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col mb-4">
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col mb-4">
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                        additional content.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col mb-4">
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+        </section>
 
-    <!-- skills section listing the skills to be learned in the bootcamp: scrollspy -->
-    <nav id="navbar-example2" class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">My Skills</a>
-        <ul class="nav nav-pills">
-            <li class="nav-item">
-                <a class="nav-link" href="#html">HTML</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#css">CSS</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#js">JavaScript</a>
-            </li>
-
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                    aria-expanded="false">Dropdown</a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#one">one</a>
-                    <a class="dropdown-item" href="#two">two</a>
-                    <div role="separator" class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#three">three</a>
-                </div>
-            </li>
-        </ul>
-    </nav>
-    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
-        <h4 id="html">HTML</h4>
-        <p>...</p>
-        <h4 id="css">CSS</h4>
-        <p>...</p>
-        <h4 id="js">JavaScript</h4>
-        <p>...</p>
-        <h4 id="one">one</h4>
-        <p>...</p>
-        <h4 id="two">two</h4>
-        <p>...</p>
-        <h4 id="three">three</h4>
-        <p>...</p>
-    </div>
-
-
-    <!-- about/contact section in the same row: collapse -->
-    <!-- Multiple targets -->
-    <p>
-        <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button"
-            aria-expanded="false" aria-controls="multiCollapseExample1">About Me</a>
-        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2"
-            aria-expanded="false" aria-controls="multiCollapseExample2">Contact Me</button>
-        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse"
-            aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both
-            elements</button>
-    </p>
-    <div class="row">
-        <div class="col">
-            <div class="collapse multi-collapse show" id="multiCollapseExample1">
-                <div class="card card-body">
-                    Some placeholder content for the first collapse component of this multi-collapse example. This panel
-                    is hidden by default but revealed when the user activates the relevant trigger.
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="collapse multi-collapse show" id="multiCollapseExample2">
-                <div class="card card-body">
-                    Some placeholder content for the second collapse component of this multi-collapse example. This
-                    panel is hidden by default but revealed when the user activates the relevant trigger.
-                </div>
-            </div>
-        </div>
-    </div>
-
+    </main>
 
     <!-- footer: Breadcrumb -->
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item"><a href="#">Library</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Data</li>
-        </ol>
-    </nav>
+    <footer class="">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#hero">About</a></li>
+                <li class="breadcrumb-item"><a href="#work">My Work</a></li>
+                <li class="breadcrumb-item"><a href="#skills">My Skills</a></li>
+                <li class="breadcrumb-item"><a href="#contact">Contact Me</a></li>
 
+                <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+        </nav>
+    </footer>
+    <!-- end footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
 </body>
 
