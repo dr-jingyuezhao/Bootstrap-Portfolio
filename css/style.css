@@ -147,6 +147,20 @@ section#contact p {
     margin: 0px 10px;
 }
 
+.contact-section {
+    padding-top: 5rem;
+  }
+  section#contact .card {
+    border: 0;
+    border-bottom: 0.25rem solid var(--blue-color);
+  }
+  
+  section#contact .card hr {
+    border-color: var(--blue-color);
+    border-width: 0.25rem;
+    width: 3rem;
+  }
+  
 
 /* prewritten css */
 footer {
