@@ -1,3 +1,18 @@
+/* Variables */
+:root {
+    --font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --bgd-color: lightgrey;
+    --blue-color: #92CCCD;
+    --darkgrey: #31343D;
+    --sec-heading-color: #445876;
+    --highlight: rgb(199, 172, 19, 1);
+    --links: yellow;
+    --transition: 0.5s;
+    --line-height: 1.5;
+    --margin: 0;
+    --padding: 0;
+  }  
+
 body {
     background-color: lightcyan;
 }
