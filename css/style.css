@@ -32,7 +32,7 @@ p {
 
 /* style of main navbar */
 .customNav {
-    position: fixed;
+    position: relative;
     width: 100%;
     background: url("../images/transparency.png");
     background-color: transparent !important;
@@ -74,9 +74,8 @@ p {
     background-image: url("../images/my-web-development-img-1.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(100vh - 20px);
+    height: auto;
     width: auto;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,14 +84,14 @@ p {
 .jumboText {
     width: 100%;
     color: var(--blue-color);
-    margin-top: 75px;
-    margin-bottom: 50px;
-    margin-left: 220px;
+    margin-left: 190px;
+    margin-bottom: 20px;
     text-align: center;
+    font-weight: bold;
 }
 
 .jumboText a {
-    margin-top: 100px;
+    margin-top: 20px;
 
 }
 
