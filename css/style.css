@@ -74,7 +74,7 @@ p {
     background-image: url("../images/my-web-development-img-1.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: auto;
+    height: calc(100vh - 20px);
     width: auto;
     display: flex;
     align-items: center;
