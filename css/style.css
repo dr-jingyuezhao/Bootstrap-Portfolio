@@ -95,24 +95,44 @@ p {
 
 }
 
-/* Cards */
+/* work section: Cards */
 .content {
     padding: 20px;
 }
 
 .sectionHeading {
-    text-align: center;
     font-weight: bold;
     color: var(--blue-color);
 }
 
-.cardContainer {
-    text-align: center;
-}
 
 .card-title {
     font-weight: bold;
     color: var(--blue-color);
+}
+
+/* skills section */
+
+section#skills {
+    margin: 30px 0px;
+}
+
+section#skills ul {
+    margin: 20px 20px;
+}
+
+section#skills ul li {
+    margin: 10px 0px;
+}
+
+section#skills ul li a {
+    margin-left: 20px;
+}
+
+section#skills ul li p {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
 }
 
 /* prewritten css */
