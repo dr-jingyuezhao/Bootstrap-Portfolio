@@ -136,30 +136,16 @@ section#skills ul li p {
     align-items: center;
 }
 
-/* about & contact section */
-section#contact p {
-    margin: 20px 0px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.col {
-    margin: 0px 10px;
-}
-
-.contact-section {
-    padding-top: 5rem;
-}
-
+/* contact section */
 section#contact .card {
     border: 0;
-    border-bottom: 0.25rem solid var(--blue-color);
+    border-bottom: 0.4rem solid var(--blue-color);
 }
 
 section#contact .card hr {
     border-color: var(--blue-color);
-    border-width: 0.25rem;
-    width: 3rem;
+    border-width: 0.15rem;
+    width: 8rem;
 }
 
 
