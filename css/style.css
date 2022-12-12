@@ -145,27 +145,29 @@ section#contact .card hr {
 
 /* footer */
 
-
-/* copyright style */
-footer p {
-    font-size: 12px;
-    text-align: center;
-  }
-  
-/* prewritten css */
+/* icons css */
 footer {
     position: absolute;
     width: 100%;
     height: 60px;
     line-height: 60px;
-    background-color: #f5f5f5;
-    margin-top: 50px;
 }
 
-.cardContainer {
-    margin-top: 20px;
+.social {
+    list-style: none;
+    margin-right: 35px;
 }
 
-.card {
-    margin: 0 auto;
+.social li a:hover {
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px var(--highlight);
+  }
+  
+
+/* copyright style */
+footer p {
+    font-size: 12px;
+    text-align: center;
+    color: grey;
 }
