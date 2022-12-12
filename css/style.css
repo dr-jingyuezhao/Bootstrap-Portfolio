@@ -32,7 +32,7 @@ p {
 
 /* style of main navbar */
 .customNav {
-    position: relative;
+    position: fixed;
     width: 100%;
     background: url("../images/transparency.png");
     background-size: cover;
@@ -70,7 +70,11 @@ p {
 
 /* hero section: jumbotron style */
 .jumbotron {
-    background-image: url("../images/blue-pink-halftone-background.webp");
+    position: relative;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 80px;
+    background-image: url("../images/coding-wallpaper-3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -80,15 +84,19 @@ p {
 
 .jumboText {
     position: relative;
-    color: var(--blue-color);
-    margin-bottom: 20px;
+    color: white;
     text-align: center;
     font-weight: bold;
+    margin: 30px;
 }
 
+.jumboText h1, h2, h3 {
+    font-style: italic;
+    text-shadow: 4px 4px 8px white;
+
+}
 .jumboText a {
     margin-top: 50px;
-
 }
 
 .page-section {
@@ -158,8 +166,8 @@ footer {
     cursor: pointer;
     border-radius: 20px;
     box-shadow: 0px 0px 5px var(--highlight);
-  }
-  
+}
+
 
 /* copyright style */
 footer p {
