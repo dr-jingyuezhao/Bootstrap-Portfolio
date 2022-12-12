@@ -149,8 +149,8 @@ section#contact .card hr {
 footer {
     position: absolute;
     width: 100%;
-    height: 60px;
-    line-height: 60px;
+    margin-top: 20px;
+    line-height: 40px;
 }
 
 .social {
