@@ -59,7 +59,7 @@ p {
 }
 
 .navCTA {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /* mainNav hover effect */
@@ -107,10 +107,6 @@ p {
 }
 
 /* work section: Cards */
-.content {
-    padding: 20px;
-}
-
 .card-title {
     font-weight: bold;
     color: var(--blue-color);
