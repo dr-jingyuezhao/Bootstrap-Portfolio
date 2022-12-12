@@ -1,20 +1,17 @@
 /* Variables */
 :root {
     --font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    --bgd-color: lightgrey;
+    --bgd-color: lightcyan;
     --blue-color: #0069D9;
-    --darkgrey: #31343D;
-    --sec-heading-color: #445876;
+    --font-color: white;
     --highlight: rgb(199, 172, 19, 1);
     --links: yellow;
-    --transition: 0.5s;
     --line-height: 1.5;
     --margin: 0;
-    --padding: 0;
 }
 
 body {
-    background-color: lightcyan;
+    background-color: var(--bgd-color);
 }
 
 h1,
@@ -23,11 +20,11 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Anton', sans-serif;
+    font-family: var(--font-family);
 }
 
 p {
-    font-family: 'Jura', sans-serif;
+    font-family: var(--font-family);
 }
 
 /* style of main navbar */
@@ -41,7 +38,7 @@ p {
 
 .navbar-nav {
     margin-left: auto;
-    margin-right: 0 !important;
+    margin-right: var(--margin) !important;
 }
 
 .navbar-brand img {
@@ -54,7 +51,7 @@ p {
 }
 
 #mainNav a {
-    color: white;
+    color: var(--font-color);
 }
 
 .navCTA {
@@ -84,17 +81,20 @@ p {
 
 .jumboText {
     position: relative;
-    color: white;
+    color: var(--font-color);
     text-align: center;
     font-weight: bold;
     margin: 30px;
 }
 
-.jumboText h1, h2, h3 {
+.jumboText h1,
+h2,
+h3 {
     font-style: italic;
-    text-shadow: 4px 4px 8px white;
+    text-shadow: 4px 4px 8px var(--font-color);
 
 }
+
 .jumboText a {
     margin-top: 50px;
 }
@@ -154,7 +154,7 @@ section#contact .card hr {
 footer {
     position: absolute;
     width: 100%;
-    line-height: 40px;
+    line-height: var(--line-height);
 }
 
 .social {
