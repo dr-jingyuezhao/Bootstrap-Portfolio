@@ -70,27 +70,24 @@ p {
 
 /* hero section: jumbotron style */
 .jumbotron {
-    background-image: url("../images/my-web-development-img-1.png");
+    background-image: url("../images/blue-pink-halftone-background.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(100vh - 20px);
-    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .jumboText {
-    width: 100%;
+    position: relative;
     color: var(--blue-color);
-    margin-left: 190px;
     margin-bottom: 20px;
     text-align: center;
     font-weight: bold;
 }
 
 .jumboText a {
-    margin-top: 20px;
+    margin-top: 50px;
 
 }
 
@@ -149,7 +146,6 @@ section#contact .card hr {
 footer {
     position: absolute;
     width: 100%;
-    margin-top: 20px;
     line-height: 40px;
 }
 
