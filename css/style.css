@@ -35,7 +35,6 @@ p {
     position: relative;
     width: 100%;
     background: url("../images/transparency.png");
-    background-color: transparent !important;
     background-size: cover;
     z-index: 10;
 }
@@ -144,7 +143,15 @@ section#contact .card hr {
     width: 8rem;
 }
 
+/* footer */
 
+
+/* copyright style */
+footer p {
+    font-size: 12px;
+    text-align: center;
+  }
+  
 /* prewritten css */
 footer {
     position: absolute;
