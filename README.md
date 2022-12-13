@@ -30,11 +30,15 @@ https://dr-jingyuezhao.github.io/Bootstrap-Portfolio/
 * The "Skills" section lists out the skills expected to learn from the bootcamp
 * The "Contact Me" section contains the information about how to contact me in different ways
 
-Mock-Up
+Website demo
 
-The following animation shows the portfolio's appearance and functionality:  
+The following images shows the portfolio's appearance:  
 
-![website demo](images/01-css-challenge-demo.gif)
+![website demo](images/demo-1.jpg)
+![website demo](images/demo-2.jpg)
+![website demo](images/demo-3.jpg)
+![website demo](images/demo-4.jpg)
+![website demo](images/demo-5.jpg)
 
 
 ## Credits
