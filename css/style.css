@@ -87,12 +87,8 @@ p {
     margin: 30px;
 }
 
-.jumboText h1,
-h2,
-h3 {
-    font-style: italic;
+.jumboText h1, h2, h3 {
     text-shadow: 4px 4px 8px var(--font-color);
-
 }
 
 .jumboText a {
