@@ -34,11 +34,12 @@ Website demo
 
 The following images shows the portfolio's appearance:  
 
-![website demo](images/demo-1.jpg)
-![website demo](images/demo-2.jpg)
-![website demo](images/demo-3.jpg)
-![website demo](images/demo-4.jpg)
-![website demo](images/demo-5.jpg)
+![website demo](images/demo-1-hero.jpg)
+![website demo](images/demo-2-work-p1.jpg)
+![website demo](images/demo-3-work-p2.jpg)
+![website demo](images/demo-4-skills.jpg)
+![website demo](images/demo-5-contact.jpg)
+![website demo](images/demo-6-footer.jpg)
 
 
 ## Credits
